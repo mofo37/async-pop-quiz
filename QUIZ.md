@@ -26,4 +26,4 @@ setTimeout(() => {
 
 * To calculate an elapsed time you can use `const start = new Date()` and then to end the time use
 `const elapsed = new Date() - start;`. Result will be in milliseconds. Be aware the time won't be exactly 
-5000 ms, so you can test like: `seconds > 5000 && seconds < 6000`
+5000 ms, so you can test like: `elapsed > 5000 && elapsed < 6000`
