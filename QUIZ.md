@@ -5,7 +5,7 @@ when invoked with a callback, it will call the callback after 5 seconds.
 
 Things to know:
 * Because there is only one test, you can use a single `it` without describe.
-* Mocha has a default 2 second timeout. You can increase it using:
+* Mocha has a default 2 second (2000ms) timeout. You can increase it using:
 
 ```js
 it('takes five', done => {
